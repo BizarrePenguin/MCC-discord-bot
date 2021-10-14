@@ -1,2 +1,5 @@
 # Secret files (never allow code published without them in the .gitignore)
 token.txt
+
+# VS Code
+.vscode/**
