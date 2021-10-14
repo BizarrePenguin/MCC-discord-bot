@@ -17,5 +17,6 @@ async def on_message(message):
         return
     else:
         print('Received message from {0.author}: "{0.content}"'.format(message))
+        await message.channel.send('Hello there! I am currently a baby bot. Please do not expect good answers from me yet.')
 
 client.run(token)
